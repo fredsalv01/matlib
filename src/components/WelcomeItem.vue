@@ -8,6 +8,7 @@
         <slot name="heading"></slot>
       </h3>
       <slot></slot>
+      
     </div>
   </div>
 </template>
@@ -20,7 +21,6 @@
 
 .details {
   flex: 1;
-  margin-left: 1rem;
 }
 
 i {

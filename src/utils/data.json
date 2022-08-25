@@ -1,0 +1,80 @@
+[
+    {
+        "id": "036cf97c-2407-11ed-861d-0242ac120002",
+        "name":"Distancia entre dos puntos",
+        "description":"Distancia entre dos puntos",
+        "formulas": [
+            "$$P = {(n * a) + (m * b) \\over (m + n)}$$",
+            "$$P = {a + b \\over 2}$$"
+        ]
+    },
+    {
+        "id": "5713a490-2407-11ed-861d-0242ac120002",
+        "name":"Distancia entre dos puntos en el plano cartesiano",
+        "description":"Distancia entre dos puntos en el plano cartesiano",
+        "formulas": [
+            "$$d = AB = {\\sqrt{(x_2 - x_1)^2 + (y_2 + y_1)^2}}$$"
+        ]
+    },
+    {
+        "id": "9d6fa718-2407-11ed-861d-0242ac120002",
+        "name":"Division de un segemento a una razon dada",
+        "description":"Division de un segemento a una razon dada",
+        "formulas": [
+            "$$X = {(n * x_1) + (m * x_2) \\over m + n}$$",
+            "$$Y = {(n * y_1) + (m * y_2)}$$"
+        ]
+    },
+    {
+        "id": "d1624e86-2407-11ed-861d-0242ac120002",
+        "name":"Coordenadas del punto medio de un segmento",
+        "description":"Coordenadas del punto medio de un segmento",
+        "formulas": [
+            "$$X = {(x_1 + x_2) \\over 2}$$",
+            "$$Y = {(y_1 + y_2) \\over 2}$$"
+        ]
+    },
+    {
+        "id": "05bec952-2408-11ed-861d-0242ac120002",
+        "name":"Ecuacion de la recta",
+        "description":"Ecuacion de la recta",
+        "formulas": [
+            "$$Y - Y_1 = m  { ( X - X_1)}$$"
+        ]
+    },
+    {
+        "id": "93c0ca0c-2408-11ed-861d-0242ac120002",
+        "name":"Ecuacion de la pendiente",
+        "description":"Ecuacion de la pendiente",
+        "formulas": [
+            "$$m = {(y_2 - y_1) \\over (x_2 - x_1) }$$"
+        ]
+    },
+    {
+        "id": "b214bae0-2408-11ed-861d-0242ac120002",
+        "name":"Ecuaciones de rectas paralelas a los ejes",
+        "description":"Ecuaciones de rectas paralelas a los ejes",
+        "formulas": [
+            "$$ (y - y_1) = { (y_2 - y_1) (x - x_1) \\over x_2 - x_1 }$$"
+        ]
+    },
+    {
+        "id": "5e9de05c-2409-11ed-861d-0242ac120002",
+        "name":"Condicion de perpendicularidad",
+        "description":"Condicion de perpendicularidad",
+        "formulas": [
+            "$$ Y = { m X + B }$$",
+            "$${ AX + BY + C = 0 }$$",
+            "$$ Y - Y_1 = { (Y_2 - Y_1) * (X - X_1) \\over  X_2 - X_1 }$$"
+        ]
+    },
+    {
+        "id": "6746287c-2409-11ed-861d-0242ac120002",
+        "name":"Ecuacion de la circunferencia",
+        "description":"Ecuacion de la circunferencia",
+        "formulas": [
+            "$$ (x^2 + y^2) = { r^2 }$$"
+        ]
+    }
+ 
+]

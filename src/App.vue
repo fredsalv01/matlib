@@ -5,15 +5,25 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <div id="app">
     <header>
-      <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+      
       <div class="wrapper">
-        <HelloWorld msg="You started Vue MathLib!" />
+        <div  style="margin: 0 auto; margin-bottom: 1rem;">
+          <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="90" height="90" />
+        </div>
+        <HelloWorld msg="Bienvenido a Vue MathLib!" />
+        <div style="margin: 1rem auto; width: 100%">
+          <p>Para ver los temas presione el botón de siguiente y para retroceder el botón de atras</p>
+        </div>
 
-        <nav>
+        <div>
+          Colaborador:&MediumSpace; <a target="_blank" href="https://github.com/fredsalv01">Freddy Morales</a>
+        </div>
+
+        <nav style="display: flex; justify-content:center">
           <router-link to="/">Home</router-link>
           <router-link to="/about">About</router-link>
         </nav>
+
       </div>
     </header>
 
