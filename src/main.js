@@ -5,10 +5,14 @@ import App from './App.vue'
 import router from './router'
 import VueMathjax from 'vue-mathjax'
 
+
 import './assets/main.css'
+
+
 
 Vue.use(PiniaVuePlugin)
 Vue.use(VueMathjax)
+
 
 new Vue({
   router,
