@@ -7,6 +7,7 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "pinia": "^2.0.16",
     "vue": "^2.7.7",
     "vue-mathjax": "^0.1.1",
@@ -16,7 +17,6 @@
   "devDependencies": {
     "@vitejs/plugin-legacy": "^2.0.0",
     "@vitejs/plugin-vue2": "^1.1.2",
-    "gh-pages": "^4.0.0",
     "terser": "^5.14.2",
     "vite": "^3.0.2"
   }
